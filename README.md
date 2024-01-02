@@ -3,7 +3,8 @@
 ## Overview
 This project aims to build a deep learning model to classify images of cats and dogs using Convolutional Neural Networks (CNN). The dataset utilized is sourced from the Dogs vs. Cats dataset available on Kaggle.
 
-(insert_image_url_here)
+[https://github.com/BK-KAVIYA/Image-Classification-using-Convolutional-Neural-Networks-/blob/main/Images/Dataset.png]
+
 
 ## Key Steps
 1. **Data Collection and Preprocessing:** 
