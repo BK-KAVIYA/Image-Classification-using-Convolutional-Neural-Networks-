@@ -1,10 +1,9 @@
 # Cats vs. Dogs Image Classification using Convolutional Neural Networks (CNN)
 
 ## Overview
-This project aims to build a deep learning model to classify images of cats and dogs using Convolutional Neural Networks (CNN). The dataset utilized is sourced from the Dogs vs. Cats dataset available on Kaggle.
+This project aims to build a deep-learning model to classify images of cats and dogs using Convolutional Neural Networks (CNN). The dataset utilized is sourced from the Dogs vs. Cats dataset available on Kaggle.
 
-[https://github.com/BK-KAVIYA/Image-Classification-using-Convolutional-Neural-Networks-/blob/main/Images/Dataset.png]
-
+<img src="https://github.com/BK-KAVIYA/Zaara.lk/blob/main/PHOTO/logo/zara.png" alt="Data set">
 
 ## Key Steps
 1. **Data Collection and Preprocessing:** 
@@ -21,7 +20,7 @@ This project aims to build a deep learning model to classify images of cats and 
    - The model uses a sigmoid activation for binary classification.
    - Code snippet:
      ```python
-     model = Sequential()
+      model = Sequential()
 
       model.add(Conv2D(32,kernel_size=(3,3),padding='valid',activation='relu',input_shape=(256,256,3)))
       model.add(BatchNormalization())
@@ -57,7 +56,7 @@ This project aims to build a deep learning model to classify images of cats and 
    - Additionally, a sample test image is loaded and passed through the trained model for prediction.
    - Code snippet:
      ```python
-       import matplotlib.pyplot as plt
+      import matplotlib.pyplot as plt
 
       plt.plot(history.history['accuracy'],color='red',label='train')
       plt.plot(history.history['val_accuracy'],color='blue',label='validation')
@@ -78,10 +77,10 @@ This project serves as a foundation for understanding and implementing image cla
 
 ---
 
-![Example Cat Image](insert_cat_image_url_here)
+<img src="https://github.com/BK-KAVIYA/Image-Classification-using-Convolutional-Neural-Networks-/blob/main/Images/cat-test.png" alt="cat testing">
 *Sample Cat Image*
 
-![Example Dog Image](insert_dog_image_url_here)
+<img src="https://github.com/BK-KAVIYA/Image-Classification-using-Convolutional-Neural-Networks-/blob/main/Images/dos-test.png" alt="dog testing">
 *Sample Dog Image*
 
  
