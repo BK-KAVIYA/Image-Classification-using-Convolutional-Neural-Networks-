@@ -56,12 +56,12 @@ This project aims to build a deep learning model to classify images of cats and 
    - Additionally, a sample test image is loaded and passed through the trained model for prediction.
    - Code snippet:
      ```python
-    import matplotlib.pyplot as plt
+       import matplotlib.pyplot as plt
 
-plt.plot(history.history['accuracy'],color='red',label='train')
-plt.plot(history.history['val_accuracy'],color='blue',label='validation')
-plt.legend()
-plt.show()
+      plt.plot(history.history['accuracy'],color='red',label='train')
+      plt.plot(history.history['val_accuracy'],color='blue',label='validation')
+      plt.legend()
+      plt.show()
      ```
 
 5. **Mitigating Overfitting:** 
